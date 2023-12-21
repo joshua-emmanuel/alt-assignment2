@@ -132,6 +132,7 @@ main {
 
 .form-field input,
 .form-field select {
+  width: 100%;
   border-radius: 0.125rem;
   border: 1px solid #F0F0F0;
   padding: .75rem;
