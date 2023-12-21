@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.cdnfonts.com/css/sofia-pro" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign Up | Individual</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <main>
+        <div>
+          <img class="logo" src="./images/logo.svg" alt="" />
+          <h1>For Individuals</h1>
+          <div>
+            <p class="info-text--mobile">
+              Inspiring wholesome harmony for the mind, body and spirit, for
+              everyone, everywhere.
+            </p>
+            <p class="info-text--desktop">
+              Start benefiting from the wellness experience. For companies
+              looking on increasing productivity, and improving organization
+              wellness.
+            </p>
+          </div>
+        </div>
+        <div>
+          <form class="register-form">
+            <div class="form-group">
+              <div class="form-field">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" required />
+              </div>
+              <div class="form-field">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-field">
+                <label for="gender">Gender</label>
+                <select id="gender" required>
+                  <option hidden selected value="">Select here</option>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label for="date-of-birth">Date of Birth</label>
+                <input
+                  type="date"
+                  id="date-of-birth"
+                  name="date-of-birth"
+                  placeholder="Select here"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-field">
+                <label for="weight">Weight (KG)</label>
+                <input
+                  type="text"
+                  name="weight"
+                  id="weight"
+                  placeholder="Enter Weight"
+                  required
+                />
+              </div>
+              <div class="form-field">
+                <label for="height">Height (CM)</label>
+                <input
+                  type="text"
+                  name="height"
+                  id="height"
+                  placeholder="Enter height here.."
+                  required
+                />
+              </div>
+            </div>
+            <div>
+              <div class="form-field">
+                <label for="activity-level">Activity Level</label>
+                <select id="gender" required>
+                  <option hidden selected value="">Select here</option>
+                  <option value="Low">Low</option>
+                  <option value="Mid">Mid</option>
+                  <option value="High">High</option>
+                </select>
+              </div>
+            </div>
+            <div>
+              <div class="form-field">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" required />
+                <button type="button" class="password-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                  >
+                    <path
+                      d="M7.99998 6.00001C6.90531 6.00001 5.99998 6.90601 5.99998 8.00001C5.99998 9.09468 6.90531 10 7.99998 10C9.09398 10 9.99998 9.09468 9.99998 8.00001C9.99998 6.90601 9.09398 6.00001 7.99998 6.00001Z"
+                      fill="#A6A6A6"
+                    />
+                    <path
+                      d="M7.99998 3.33334C2.93864 3.33334 1.41752 7.74468 1.4036 7.78934L1.33331 8.00001L1.40294 8.21068C1.41753 8.25534 2.93864 12.6667 7.99998 12.6667C13.0613 12.6667 14.5824 8.25534 14.5964 8.21068L14.6666 8.00001L14.597 7.78934C14.5824 7.74468 13.0613 3.33334 7.99998 3.33334ZM7.99998 11.3333C4.45181 11.3333 3.07723 8.76934 2.74436 8.00001C3.07856 7.22801 4.4538 4.66668 7.99998 4.66668C11.5482 4.66668 12.9227 7.23068 13.2556 8.00001C12.9214 8.77201 11.5462 11.3333 7.99998 11.3333Z"
+                      fill="#A6A6A6"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div>
+              <div class="form-field">
+                <button type="submit">Register</button>
+              </div>
+            </div>
+            <div class="register-form__footer register-form__footer--desktop">
+              <p>
+                By clicking Register, you agree to our
+                <a href="#">Terms of Use</a> and our
+                <a href="#">Privacy Policy</a>
+              </p>
+            </div>
+          </form>
+          <div class="register-form__footer register-form__footer--mobile">
+            <p>
+              By clicking Register, you agree to our
+              <a href="#">Terms of Use</a> and our
+              <a href="#">Privacy Policy</a>
+            </p>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
